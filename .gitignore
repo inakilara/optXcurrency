@@ -1,0 +1,10 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/cache/
+
+# regenerable backtest outputs (scripts/run_phase*.py); CSV and JSON results stay tracked
+reports/**/*.parquet
+reports/**/*.log
+reports/**/*.err
